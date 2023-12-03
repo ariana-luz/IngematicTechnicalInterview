@@ -1,0 +1,109 @@
+// .contenedor{
+//     font-size: 5em;
+// }
+.home{
+    height: 100vh;
+    background-image: url("/assets/images/homepage-backg4.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+nav {
+    ul {
+        justify-content: center;
+        font-family: 'Nunito Sans';
+        color: beige;
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 15px;
+        gap: 3rem;
+
+        a {
+            color: aquamarine;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgba(104, 243, 197, 0.63)
+        }
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: beige;
+    padding: 100px;
+
+    h1 {
+        font-size: 4rem;
+        font-family: 'Nunito Sans';
+        color: beige;
+        padding: 2rem;
+        margin: 0;
+        line-height: normal;
+    }
+
+    button {
+        height: 4rem;
+        width: 12rem;
+        background-color: rgb(34, 216, 155);
+        color: whitesmoke;
+        font-family: 'Nunito Sans';
+        font-size: 2rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    button:hover {
+        background-color: rgba(34, 216, 155, 0.63);
+    }
+
+    button:active {
+        background-color: rgb(3, 109, 73);
+    }
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        font-size: 4rem;
+        font-family: 'Nunito Sans';
+        color: rgb(255, 123, 0);
+        padding: 3rem;
+        margin: 0;
+        line-height: normal;
+    }
+    p{
+        font-size: 2rem;
+        font-family: 'Nunito Sans';
+        color: rgb(27, 5, 5);
+        padding: 0% 10%;
+        line-height: normal;
+        padding: 0rem 3rem;
+    }
+
+}
+
+footer{
+    margin-top: 50px;
+    height: 10vh;
+    background-color: black;
+    color:rgb(34, 216, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
