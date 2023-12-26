@@ -1,6 +1,6 @@
 # IngematicTechnicalInterview
 
-Prueba técnica de Maquetación HTML Y CSS para Entrevista con Ingematic
+Ingematic Technical Interview: Maquetación HTML Y CSS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
 
